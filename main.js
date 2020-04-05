@@ -2,7 +2,7 @@ const app = new Vue({
   el: '#app',
   data:{
     items:["Vue.js","v-for","v-model","v-on"],
-    addItemValue: "Please add text"
+    addItemValue: ""
   },
   methods: {
     addItemFunction: function(){

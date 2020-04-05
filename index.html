@@ -8,7 +8,7 @@
 <body>
   <div id="app">
     <input v-model="addItemValue">
-    <p>[{{addItemValue}}]</p>
+    <p>「{{addItemValue}}」</p>
     <button v-on:click="addItemFunction">Add Item!</button>
     <ul>
       <li v-for="(item, itemIndex) in items" :key="itemIndex">
